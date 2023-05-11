@@ -5,7 +5,7 @@ title: "Deployment de un sitio estatico con Hugo y Git Hooks"
 url: "/deployment-hugo-site-git-hooks"
 subtitle: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
 summary: "Como realizar un deployment de un sitio con Hugo automaticamente usando Git Hooks"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Hugo, Git, Open-Source, Spanish ]
 categories: [ Linux, SysAdmin, DevOps, Open-Source, Spanish]
 keywords: [ Hugo, DevOps, Open Source ]
@@ -72,7 +72,7 @@ sin embargo las carteristicas que me convencieron de usar [Hugo](https://gohugo.
 El ambiente consta de:
 
 - 1 servidor productivo donde esta instalado hugo, git y un servidor web (apache o nginx) , haremos todos los deployments usando el usuario admin, ojo que no es el usuario root.
-- 1 servidor/equipo de desarrollo, de igual forma que cuenta con hugo y git, en mi caso, es mi computadora personal y mi usuario es luiscachog.
+- 1 servidor/equipo de desarrollo, de igual forma que cuenta con hugo y git, en mi caso, es mi computadora personal y mi usuario es d-cmst.
 - 1 cuenta de [github.com](https://github.com)
 
 ### Autenticación mediante llaves SSH
@@ -82,19 +82,19 @@ El primer paso es realizar el intercambio de llaves SSH entre el equipo de desar
 1. Generar la llave SSH, tendrás que contestar algunas preguntas, entre las cuales está si quieres ponerle un password, a lo cual deberas dejarlo en blanco para que no te pida contraseña.
 
     ```shell
-    luiscachog@dev-server:~$ ssh-keygen
+    d-cmst@dev-server:~$ ssh-keygen
     ```
 
 1. Copiar la llave SSH hacia el equipo productivo:
 
     ```shell
-    luiscachog@dev-server:~$ ssh-copy-id admin@IP_servidor_productivo
+    d-cmst@dev-server:~$ ssh-copy-id admin@IP_servidor_productivo
     ```
 
 1. Verificar que te puedas conectar desde tu servidor de desarrollo, con tu usuario al servidor productivo, con el usuario que realizará los deployments.
 
     ```shell
-    luiscachog@dev-server:~$ ssh admin@162.125.2.30 hostname
+    d-cmst@dev-server:~$ ssh admin@162.125.2.30 hostname
     ```
 
     En este caso, debera de mostrarte el hostname del servidor productivo sin pedirte el password.
@@ -106,7 +106,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 1. Para instalar ambos en Ubuntu o derivados debes de ejecutar:
 
     ```shell
-    luiscachog@dev-server:~$ sudo apt install hugo git
+    d-cmst@dev-server:~$ sudo apt install hugo git
     ```
 
     Para tener la version más actualizada de hugo puedes seguir los pasos descritos en este [link](https://gohugo.io/getting-started/installing/)
@@ -114,15 +114,15 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 1. Vamos a crear un directorio de trabajo para nuestro sitio estatico
 
     ```shell
-    luiscachog@dev-server:~$ mkdir ~/sites
-    luiscachog@dev-server:~$ cd ~/sites
+    d-cmst@dev-server:~$ mkdir ~/sites
+    d-cmst@dev-server:~$ cd ~/sites
     ```
 
 1. Crearemos un nuevo sitio usando el comando hugo
 
     ```shell
-    luiscachog@dev-server:~$ hugo new site luiscachog.io
-    Congratulations! Your new Hugo site is created in /home/luiscachog/sites/luiscachog.io.
+    d-cmst@dev-server:~$ hugo new site d-cmst.io
+    Congratulations! Your new Hugo site is created in /home/d-cmst/sites/d-cmst.io.
 
     Just a few more steps and you're ready to go:
 
@@ -139,10 +139,10 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 1. Cuando termine de correr el comando se podra apreciar los siguientes directorios y archivos
 
     ```shell
-    luiscachog@dev-server:~$ cd luiscachog.io
-    luiscachog@dev-server:~$ ls
+    d-cmst@dev-server:~$ cd d-cmst.io
+    d-cmst@dev-server:~$ ls
     archetypes  config.toml  content  data  layouts  static  themes
-    luiscachog@dev-server:~$ tree
+    d-cmst@dev-server:~$ tree
     .
     ├── archetypes
     │   └── default.md
@@ -177,7 +177,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 
     ```shell
     git init
-    git submodule add https://github.com/luiscachog/gohugo-theme-ananke.git themes/ananke
+    git submodule add https://github.com/d-cmst/gohugo-theme-ananke.git themes/ananke
     # Edit your config.toml configuration file
     # and add the new theme.
 
@@ -207,7 +207,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
     Cabe mencionar, que por defecto el comando 'hugo server' no mostrará los posts que tengan la opción 'draft: true', por ello se agrega la bandera -D
 
     ```shell
-    luiscachog@dev-server:~$ hugo server -D
+    d-cmst@dev-server:~$ hugo server -D
     ```
 
 ### Configuración del repositorio Git en el servidor de desarrollo 1ra parte
@@ -215,9 +215,9 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 En el paso pasado, realizamos la inicialización del repositorio dentro del directorio del sitio estatico:
 
 ```shell
-luiscachog@dev-server:~$ pwd
-/home/luiscachog/sites/luiscachog.io
-luiscachog@dev-server:~$ git status
+d-cmst@dev-server:~$ pwd
+/home/d-cmst/sites/d-cmst.io
+d-cmst@dev-server:~$ git status
 On branch master
 
 Initial commit
@@ -241,10 +241,10 @@ Ahora, para tener el repositorio publico, tenemos que [crear](https://docs.githu
 en [github.com](https://github.com) y configurarlo como un repositorio remoto
 
 ```shell
-luiscachog@dev-server:~$ git add *
-luiscachog@dev-server:~$ git commit -m "First commit"
-luiscachog@dev-server:~$ git remote add origin https://github.com/luiscachog/luiscachog.io
-luiscachog@dev-server:~$ git push -u origin master
+d-cmst@dev-server:~$ git add *
+d-cmst@dev-server:~$ git commit -m "First commit"
+d-cmst@dev-server:~$ git remote add origin https://github.com/d-cmst/d-cmst.io
+d-cmst@dev-server:~$ git push -u origin master
 ```
 
 ### Configuración del repositorio Git en el servidor productivo
@@ -256,7 +256,7 @@ En nuestro servidor productivo haremos:
 ```shell
 admin@prod-server:~$ mkdir sites
 admin@prod-server:~$ cd sites
-admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.io  luiscachog.io.git
+admin@prod-server:~$ git clone --bare https://github.com/d-cmst/d-cmst.io  d-cmst.io.git
 ```
 
 #### Configuración del hook
@@ -264,7 +264,7 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
 1. Ya que tenemos nuestro repositorio tipo bare en el servidor productivo vamos a crear el script que mandará a llamar el hook de git.
 
     ```shell
-    admin@prod-server:~$ cd sites/luiscachog.io.git/hooks
+    admin@prod-server:~$ cd sites/d-cmst.io.git/hooks
     admin@prod-server:~$ vim post-update
     ```
 
@@ -273,11 +273,11 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
     ```shell
     #!/bin/bash
 
-    GIT_REPO=$HOME/luiscachog.io.git
-    WORKING_DIRECTORY=/var/www/vhosts/luiscachog.io/working_hugo
-    PUBLIC_WWW=/var/www/vhosts/luiscachog.io/public_html
-    BACKUP_WWW=/var/www/vhosts/luiscachog.io/backup_html
-    MY_DOMAIN=luiscachog.io
+    GIT_REPO=$HOME/d-cmst.io.git
+    WORKING_DIRECTORY=/var/www/vhosts/d-cmst.io/working_hugo
+    PUBLIC_WWW=/var/www/vhosts/d-cmst.io/public_html
+    BACKUP_WWW=/var/www/vhosts/d-cmst.io/backup_html
+    MY_DOMAIN=d-cmst.io
 
     set -e
 
@@ -301,9 +301,9 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
 1. Probamos que nuestro script funcione adecuadamente:
 
     ```shell
-    admin@prod-server:~$ ~/sites/luiscachog.io.git/hooks/post-update
+    admin@prod-server:~$ ~/sites/d-cmst.io.git/hooks/post-update
 
-    Cloning into '/var/www/vhosts/luiscachog.io/working_hugo'...
+    Cloning into '/var/www/vhosts/d-cmst.io/working_hugo'...
     done.
     0 draft content
     0 future content
@@ -325,9 +325,9 @@ admin@prod-server:~$ git clone --bare https://github.com/luiscachog/luiscachog.i
 Una vez tenemos configurado nuestro repositorio en el servidor de producción, procedemos a agregarlo como repositorio remoto en nuestro servidor de desarrollo
 
 ```shell
-luiscachog@dev-server:~$ cd /home/luiscachog/sites/luiscachog.io
-luiscachog@dev-server:~$ git remote add prod admin@IP_servidor_productivo:luiscachog.io
-luiscachog@dev-server:~$ git ls-remote prod
+d-cmst@dev-server:~$ cd /home/d-cmst/sites/d-cmst.io
+d-cmst@dev-server:~$ git remote add prod admin@IP_servidor_productivo:d-cmst.io
+d-cmst@dev-server:~$ git ls-remote prod
 d1b0b73528ab3117170ef74e133d0194dd2bc88a    HEAD
 d1b0b73528ab3117170ef74e133d0194dd2bc88a    refs/heads/master
 ```
@@ -335,37 +335,37 @@ d1b0b73528ab3117170ef74e133d0194dd2bc88a    refs/heads/master
 Puedes verificar los repositorios remotos con el comando:
 
 ```shell
-luiscachog@dev-server:~$ git remote -v
-origin  git@github.com:luiscachog/luiscachog.io.git (fetch)
-origin  git@github.com:luiscachog/luiscachog.io.git (push)
-prod    admin@IP_servidor_productivo:luiscachog.io.git (fetch)
-prod    admin@IP_servidor_productivo:luiscachog.io.git (push)
+d-cmst@dev-server:~$ git remote -v
+origin  git@github.com:d-cmst/d-cmst.io.git (fetch)
+origin  git@github.com:d-cmst/d-cmst.io.git (push)
+prod    admin@IP_servidor_productivo:d-cmst.io.git (fetch)
+prod    admin@IP_servidor_productivo:d-cmst.io.git (push)
 ```
 
 Ahora cada vez que realizemos un push hacia el remote llamado 'prod' se llamara la función del hook.
 
 ```shell
-luiscachog@dev-server:~$ cd /home/luiscachog/sites/luiscachog.io
-luiscachog@dev-server:~$ hugo new posts/Testing-Deployment.md
-luiscachog@dev-server:~$ echo "Deployment Test" >> content/posts/Testing-Deployment.md
-luiscachog@dev-server:~$ git add *
-luiscachog@dev-server:~$ git commit -m 'Deployment test with git hooks'
+d-cmst@dev-server:~$ cd /home/d-cmst/sites/d-cmst.io
+d-cmst@dev-server:~$ hugo new posts/Testing-Deployment.md
+d-cmst@dev-server:~$ echo "Deployment Test" >> content/posts/Testing-Deployment.md
+d-cmst@dev-server:~$ git add *
+d-cmst@dev-server:~$ git commit -m 'Deployment test with git hooks'
 ```
 
 Este es el comando que hace la magia:
 
 ```shell
-luiscachog@dev-server:~$ git push prod master
+d-cmst@dev-server:~$ git push prod master
 Counting objects: 3, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 310 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
-remote: Cloning into '/var/www/vhosts/luiscachog.io/working_hugo'...
+remote: Cloning into '/var/www/vhosts/d-cmst.io/working_hugo'...
 remote: done.
-remote: Cloning into '/var/www/vhosts/luiscachog.io/working_hugo/themes/hugo-future-imperfect'...
-remote: INFO 2018/03/01 03:12:34 Using config file: /var/www/vhosts/luiscachog.io/working_hugo/config.toml
-remote: Building sites … INFO 2018/03/01 03:12:34 syncing static files to /var/www/vhosts/luiscachog.io/public_html/
+remote: Cloning into '/var/www/vhosts/d-cmst.io/working_hugo/themes/hugo-future-imperfect'...
+remote: INFO 2018/03/01 03:12:34 Using config file: /var/www/vhosts/d-cmst.io/working_hugo/config.toml
+remote: Building sites … INFO 2018/03/01 03:12:34 syncing static files to /var/www/vhosts/d-cmst.io/public_html/
 remote:
 remote:                    | EN
 remote: +------------------+----+
@@ -379,14 +379,14 @@ remote:   Sitemaps         |  1
 remote:   Cleaned          |  0
 remote:
 remote: Total in 44 ms
-To admin@IP_servidor_productivo:luiscachog.io.git
+To admin@IP_servidor_productivo:d-cmst.io.git
    d5b0671..cvc4dee  master -> master
 ```
 
 Listo ya podemos probar nuestro sitio
 
 ```shell
-http://luiscachog.io
+http://d-cmst.io
 ```
 
 Con esto el siguiente paso que realizare es hacer el deployment de mi servidor para el blog usando Ansible.

@@ -5,7 +5,7 @@ title: "Rules"
 url: "/2021-season-rules"
 subtitle: ""
 summary: "Rules for the 2021 Season"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ NFL, Fantasy-Football, Hobbies ]
 categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2021 ]

@@ -4,7 +4,7 @@ linkTitle: Season Overview
 url: "/2021-season-overview-nerd-football-league"
 subtitle: Overview of 2021 season of Nerd Football League
 summary: Overview of 2021 season of Nerd Football League
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ NFL, Fantasy-Football, Hobbies ]
 categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2021 ]

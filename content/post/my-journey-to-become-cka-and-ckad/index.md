@@ -5,7 +5,7 @@ title: "My journey to become CKA and CKAD"
 url: "/my-journey-to-become-cka-and-ckad"
 subtitle: "Back in July 2020 I presented and passed two CNCF certification exams"
 summary: "I've reviewed some events that were important on my journey to became became a CKA and CKAD engineer"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Kubernetes, CKA, CKAD, DevOps, SysAdmin, SRE, Cloud Native]
 categories: [Cloud Native, Sysadmin, DevOps]
 keywords: [ Kubernetes, CKA, CKAD, Cloud Native, Linux Foundation, CNCF]

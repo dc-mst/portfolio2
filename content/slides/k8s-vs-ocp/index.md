@@ -3,7 +3,7 @@
 
 title: "Differences between Kubernetes and Openshift"
 summary: "An introduction to know the differences between a kubernetes vanilla implementation an Openshift Container Platform"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Kubernetes, Openshift, DevOps, Open-Source ]
 categories: [ Cloud Native, DevOps, Kubernetes, Openshift, Open-Source, Slides ]
 date: 2021-03-25T09:10:47-05:00

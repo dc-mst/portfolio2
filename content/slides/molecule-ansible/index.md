@@ -1,7 +1,7 @@
 ---
 title: Improve Ansible Roles with Molecule
 summary: An introduction to using Molecule to test your Ansible Roles.
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Ansible, Molecule, Community, Slides ]
 categories: [Ansible, Slides ]
 date: "2019-03-07T00:00:00Z"
@@ -53,7 +53,7 @@ slides:
 
 #### [@Rackspace](https://rackspace.com)
 
-[luiscachog.io](https://luiscachog.io) | [@luiscachog](https://twitter.com/luiscachog) | [github.com/luiscachog](https://github.com/luiscachog)
+[d-cmst.io](https://d-cmst.io) | [@d-cmst](https://twitter.com/d-cmst) | [github.com/d-cmst](https://github.com/d-cmst)
 
 ---
 {{< slide background-image="backgrounds/background1.jpg" >}}
@@ -354,7 +354,7 @@ A grandes rasgos las actividades que hace molecule son:
     - Check for idempotence
     - Lint the Ansible and Python code
     - Verify the role against some tests
-- Github Repo: [github.com/luiscachog/elastic_stack](https://github.com/luiscachog/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
+- Github Repo: [github.com/d-cmst/elastic_stack](https://github.com/d-cmst/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
 
 ---
 
@@ -388,7 +388,7 @@ A grandes rasgos las actividades que hace molecule son:
 
 ## Questions?
 
-*Talk links, references and resources can be found at:* [luiscachog.io/talk/improve-ansible-roles-with-molecule](https://luiscachog.io/talk/improve-ansible-roles-with-molecule)
+*Talk links, references and resources can be found at:* [d-cmst.io/talk/improve-ansible-roles-with-molecule](https://d-cmst.io/talk/improve-ansible-roles-with-molecule)
 
 ---
 
@@ -396,6 +396,6 @@ A grandes rasgos las actividades que hace molecule son:
 
 *You can find me on:*
 
-[luiscachog [at] gmail.com](mailto:luiscachog@gmail.com) | [luiscachog.io](https://luiscachog.io) | [github.com/luiscachog](https://github.com/luiscachog) | [@luiscachog](https://twitter.com/luiscachog)
+[d-cmst [at] gmail.com](mailto:d-cmst@gmail.com) | [d-cmst.io](https://d-cmst.io) | [github.com/d-cmst](https://github.com/d-cmst) | [@d-cmst](https://twitter.com/d-cmst)
 
 {{% /section %}}

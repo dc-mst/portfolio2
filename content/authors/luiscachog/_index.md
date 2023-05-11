@@ -47,31 +47,31 @@ interests:
 social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/luiscachog
+    link: https://github.com/d-cmst
     label: Follow me on Github
     display:
       header: true
   - icon: gitlab
     icon_pack: fab
-    link: https://gitlab.com/luiscachog
+    link: https://gitlab.com/d-cmst
     label: Follow me on GitLab
     display:
       header: false
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/luiscachog/
+    link: https://www.linkedin.com/in/d-cmst/
     label: Follow me on Linkedin
     display:
       header: true
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/luiscachog
+    link: https://twitter.com/d-cmst
     label: Follow me on Twitter
     display:
       header: true
   - icon: keybase
     icon_pack: fab
-    link: https://keybase.io/luiscachog
+    link: https://keybase.io/d-cmst
   - icon: redhat
     icon_pack: fab
     link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
@@ -82,10 +82,10 @@ social:
     link: media/files/resume.pdf
   - icon: envelope
     icon_pack: fas
-    link: "mailto:luiscachog@gmail.com" # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:d-cmst@gmail.com" # For a direct email link, use "mailto:test@example.org".
   - icon: rss
     icon_pack: fas
-    link: https://follow.it/luiscachog-io
+    link: https://follow.it/d-cmst-io
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
@@ -95,7 +95,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: luiscachog@gmail.com
+email: d-cmst@gmail.com
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

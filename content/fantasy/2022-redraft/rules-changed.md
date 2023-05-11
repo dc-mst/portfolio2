@@ -5,7 +5,7 @@ title: "Rules that changed from 2021 to 2022 Season"
 url: "/2022-season-rules-changed"
 subtitle: ""
 summary: "Comparison of the rules that changed from 2021 to 2022 Season"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ NFL, Fantasy-Football, Hobbies ]
 categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2021, 2022 ]

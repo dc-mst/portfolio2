@@ -5,7 +5,7 @@ title: " Build a Dynamic DNS Client with Rackspace API"
 url: "/build-a-dynamc-dns-client-with-rackspace-api"
 subtitle: "How to Build a Dynamic DNS via API"
 summary: "How to Build a Dynamic DNS via API"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ API, DevOps, DNS, Rackspace]
 categories: [ DevOps, Rackspace, SysAdmin ]
 keywords: [ API, DevOps, Rackspace, SysAdmin, DNS ]
@@ -61,7 +61,7 @@ The instructions assume that you:
 1. You need your domain created on Rackspace(It's under "Networking" -> "Cloud DNS" -> "Create Domain") if you don't have your domain created you are able to created using rsdns:
 
     ```shell
-    ./rsdns-domain.sh -d www.luiscachog.io -e lcacho@luisachog.io
+    ./rsdns-domain.sh -d www.d-cmst.io -e lcacho@luisachog.io
     ```
 
 1. Once you have a domain setup you need to create an A record.
@@ -69,7 +69,7 @@ The instructions assume that you:
   Again to create a record you are able to do it from Rackspace panel (It's under "Networking" -> "Cloud DNS" -> YOUR_DOMAIN -> "Add Record") or you can use rsdns:
 
     ```shell
-    ./rsdns-a.sh -n dynamic-host.luiscachog.io -i 123.123.123.123 -t 3600
+    ./rsdns-a.sh -n dynamic-host.d-cmst.io -i 123.123.123.123 -t 3600
     ```
 
     In the above the TTL is set to 1hr (3600 secs), this is so that DNS caches do not keep the record too long. That's all the pre-work done, now lets get your dynamic host setup!
@@ -77,7 +77,7 @@ The instructions assume that you:
 1. The script to update your a record is rsdns-dc.sh, and you run it like this:
 
     ```shell
-    ./rsdns-dc.sh -n dynamic-host.luiscachog.io
+    ./rsdns-dc.sh -n dynamic-host.d-cmst.io
     ```
 
     The script uses icanhazip to get your current IP, it then update the A record with it.
@@ -89,7 +89,7 @@ The instructions assume that you:
 
     ```shell
     vim /etc/cron.d/rsdns-dc
-    * */2  * * *     lcacho /home/lcacho/bin/rsdns/rsdns-dc.sh -n dynamic-host.luiscachog.io &>/dev/null
+    * */2  * * *     lcacho /home/lcacho/bin/rsdns/rsdns-dc.sh -n dynamic-host.d-cmst.io &>/dev/null
     ```
 
 Now we are done! Private Dynamic DNS on your own zone using the Rackspace API.

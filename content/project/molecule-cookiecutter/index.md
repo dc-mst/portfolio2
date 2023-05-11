@@ -27,7 +27,7 @@ url_video: ""
 
 links:
 - name: Code
-  url: https://github.com/luiscachog/cookiecutter-molecule
+  url: https://github.com/d-cmst/cookiecutter-molecule
   icon_pack: fab
   icon: github
 - name: Molecule

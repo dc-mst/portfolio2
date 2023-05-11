@@ -5,7 +5,7 @@ title: "Deploy a Hugo Static Site With Github Actions"
 url: "/deploy-a-hugo-static-site-with-github-actions"
 subtitle: "The process to generate and deploy a hugo static site using github actions"
 summary: ""
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ hugo, github ]
 categories: []
 keywords: [ hugo, static site, github, github actions, deploy ]

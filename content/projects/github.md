@@ -40,5 +40,5 @@ advanced:
 
 <script>
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "luiscachog", { responsive: true });
+    GitHubCalendar(".calendar", "d-cmst", { responsive: true });
 </script>

@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2021-09-01T09:00:00-05:00
 
-authors: [luiscachog]
+authors: [d-cmst]
 tags: [NFL, Fantasy-Football, Hobbies ]
 
 # Is this a featured event? (true/false)

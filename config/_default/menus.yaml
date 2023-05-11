@@ -39,7 +39,7 @@ main:
     weight: 80
     identifier: categories
   - name: ''
-    url: 'https://follow.it/luiscachog-io'
+    url: 'https://follow.it/d-cmst-io'
     pre: <i class='fas fa-rss'>&nbsp;</i>
     weight: 90
     identifier: rss

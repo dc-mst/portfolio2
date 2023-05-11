@@ -5,7 +5,7 @@ title: "Docker Login the Right Way"
 url: "/docker-login-the-right-way"
 subtitle: "How to configure a docker-credential-helpers to keep docker credentials safe on Linux"
 summary: "How to configure a docker-credential-helpers to keep docker credentials safe on Linux"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ DevOps, SysAdmin, Docker, Containers, Open-Source, Linux, Security, Cloud-Native ]
 categories: [ SysAdmin , DevOps, Open-Source, Containers, Linux, Security, Cloud-Native ]
 keywords: [Docker, Docker HUB, Security, DevOps, Cloud Native ]
@@ -79,7 +79,7 @@ Docker stores a base64 encoded string from the concatenation of the username, a 
 
 ```shell
 $ echo azRjaDA6c3VwZXJzZWNyZXRwYXNzd29yZAo= | base64 -d -
-luiscachog:supersecretpassword
+d-cmst:supersecretpassword
 ```
 
 A ```docker logout``` command removes the entry from the JSON file for the given registry:

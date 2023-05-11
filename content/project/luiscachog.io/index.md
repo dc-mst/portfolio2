@@ -25,11 +25,11 @@ url_slides: ""
 url_video: ""
 links:
 - name: Website
-  url: https://luiscachog.io
+  url: https://d-cmst.io
   icon_pack: fa
   icon: globe
 - name: Code
-  url: https://github.com/luiscachog/luiscachog.io
+  url: https://github.com/d-cmst/d-cmst.io
   icon_pack: fab
   icon: github
 
@@ -37,11 +37,11 @@ links:
 slides: ""
 ---
 
-Static site for luiscachog.io using:
+Static site for d-cmst.io using:
 
 - [Hugo](http://gohugo.io/)
 - [Academic](https://sourcethemes.com/academic/)
 - [Netlify](https://netlify.com)
 
 Actual status:
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ee03253e-7d3e-45ab-83b6-979d6963dfeb/deploy-status)](https://app.netlify.com/sites/luiscachog-io/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee03253e-7d3e-45ab-83b6-979d6963dfeb/deploy-status)](https://app.netlify.com/sites/d-cmst-io/deploys)

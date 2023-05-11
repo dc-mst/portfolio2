@@ -5,7 +5,7 @@ title: "View sources IP's in Apache Logs behind a Load Balancer"
 url: "/view-sources-ips-apache-logs-behind-loadbalancer"
 subtitle: "How to configure Apache Logs to view the source IP's when it is behind a Load Balancer"
 summary: "How to configure Apache Logs to view the source IP's when it is behind a Load Balancer"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ DevOps, Apache, Load-Balancer, Rackspace ]
 categories: [ Linux, SysAdmin, Rackspace, Cloud-Provider ]
 keywords: [ Apache, Logs, LoadBalancer, Rackspace ]

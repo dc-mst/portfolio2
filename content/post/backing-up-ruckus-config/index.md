@@ -4,7 +4,7 @@ title: "Backing Up a Ruckus Switch Config"
 url: "/backing-up-ruckus-config"
 subtitle: "Commands to create a backup for my Ruckus ICX 7150 Switch"
 summary: "I show how to create a backup before upgrade the Switch Firmware"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Ruckus, DevOps, SysAdmin, Network ]
 categories: [ SysAdmin, DevOps, Network ]
 keywords: [Ruckus, DevOps, Network, Networking, Backup, TFTP ]

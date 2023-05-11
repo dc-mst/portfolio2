@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2019-03-07T00:00:00Z"
 
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Community, Ansible, Molecule ]
 
 # Is this a featured talk? (true/false)
@@ -37,7 +37,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/luiscachog
+  url: https://twitter.com/d-cmst
 url_code: ""
 url_pdf: ""
 url_slides: ""

@@ -3,7 +3,7 @@ title: Understanding the Compliance Operator
 url: /understanding-compliance-operator
 subtitle: ""
 summary: ""
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Security, Operators, OpenShift, Cloud-Native ]
 categories: [ Operators, OpenShift, Security, Cloud-Native ]
 keywords: [ Compliance, Operator, Security, OpenShift ]

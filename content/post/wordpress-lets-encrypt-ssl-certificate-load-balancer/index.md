@@ -5,7 +5,7 @@ title: "WordPress with Let's Encrypt SSL Certificate on a Load Balancer"
 url: "/wordpress-lets-encrypt-ssl-certificate-load-balancer"
 subtitle: "How to configure Wordpress with a Let's Encrypt SSL Certificate on a Load Balancer"
 summary: "How to configure Wordpress with a Let's Encrypt SSL Certificate on a Load Balancer"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Wordpress, SSL, Let's-Encrypt, Load-Balancer, Rackspace, DevOps ]
 categories: [ DevOps, Linux, SysAdmin, Rackspace, Cloud-Provider ]
 keywords: [ Wordpress, SSL, Let's Encrypt, Load-Balancer, Rackspace, Cloud, DevOps]

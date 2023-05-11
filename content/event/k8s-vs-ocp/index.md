@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: 2021-03-25T09:09:11-05:00
 
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [Kubernetes, Openshift, DevOps, SRE, Open-Source, Community]
 
 # Is this a featured talk? (true/false)
@@ -44,7 +44,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/luiscachog
+  url: https://twitter.com/d-cmst
 
 # Optional filename of your slides within your talk's folder or a URL.
 url_slides:

@@ -29,15 +29,15 @@ url_video: ""
 
 links:
 - name: Ansible Galaxy
-  url: https://galaxy.ansible.com/luiscachog
+  url: https://galaxy.ansible.com/d-cmst
   icon_pack: fas
   icon: cog
 - name: CircleCI Role
-  url: https://github.com/luiscachog/ansible-circleci-cli
+  url: https://github.com/d-cmst/ansible-circleci-cli
   icon_pack: fab
   icon: github
 - name: Sonobuoy Role
-  url: https://github.com/luiscachog/ansible-sonobuoy
+  url: https://github.com/d-cmst/ansible-sonobuoy
   icon_pack: fab
   icon: github
 
@@ -49,6 +49,6 @@ links:
 slides: ""
 ---
 
-- CircleCI Role: Ansible role that installs [CircleCI CLI](https://circleci-public.github.io/circleci-cli/) on your server/workstation. [![Build Status](https://app.travis-ci.com/luiscachog/ansible-circleci-cli.svg?branch=master)](https://app.travis-ci.com/github/luiscachog/ansible-circleci-cli)
+- CircleCI Role: Ansible role that installs [CircleCI CLI](https://circleci-public.github.io/circleci-cli/) on your server/workstation. [![Build Status](https://app.travis-ci.com/d-cmst/ansible-circleci-cli.svg?branch=master)](https://app.travis-ci.com/github/d-cmst/ansible-circleci-cli)
 
-- Sonobuoy Role: Ansible role that installs [sonobuoy](https://sonobuoy.io/) on your server/workstation. [![Build Status](https://app.travis-ci.com/luiscachog/ansible-sonobuoy.svg?branch=master)](https://app.travis-ci.com/github/luiscachog/ansible-sonobuoy)
+- Sonobuoy Role: Ansible role that installs [sonobuoy](https://sonobuoy.io/) on your server/workstation. [![Build Status](https://app.travis-ci.com/d-cmst/ansible-sonobuoy.svg?branch=master)](https://app.travis-ci.com/github/d-cmst/ansible-sonobuoy)

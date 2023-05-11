@@ -5,7 +5,7 @@ title: "Rules"
 url: "/2022-season-rules"
 subtitle: ""
 summary: "Rules of the 2022 Season"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ NFL, Fantasy-Football, Hobbies ]
 categories: [ Fantasy-Football, Hobbies ]
 keywords: [ NFL, Fantasy, League, Football, Nerd Football League, Redraft, 2022 ]

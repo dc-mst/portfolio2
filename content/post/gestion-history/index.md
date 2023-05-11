@@ -5,7 +5,7 @@ title: "Gestion de History"
 url: "/gestion-de-history"
 subtitle: "Como mejorar el log histórico de tu shell"
 summary: "Como mejorar el histórico de tu shell"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Shell, Bash, Zsh, Linux, Spanish, SysAdmin, DevOps ]
 categories: [ SysAdmin, DevOps, Linux, Spanish ]
 keywords: [ Shell, Bash, Zsh, Linux, Configuration ]

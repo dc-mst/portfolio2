@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: luiscachog@gmail.com
+  email: d-cmst@gmail.com
   # phone: 888 888 88 88
   # address:
   #   street: 450 Serra Mall
@@ -41,16 +41,16 @@ content:
   # office_hours:
   #   - 'Monday 10:00 to 13:00'
   #   - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com/luiscachog'
+  appointment_url: 'https://calendly.com/d-cmst'
   contact_links:
     - icon: shipping-fast
       icon_pack: fas
       name: Sent me an email (Reply Guaranteed)
-      link: 'https://www.mypublicinbox.com/luiscachog'
+      link: 'https://www.mypublicinbox.com/d-cmst'
     - icon: twitter
       icon_pack: fab
       name: DM Me
-      link: 'https://twitter.com/luiscachog'
+      link: 'https://twitter.com/d-cmst'
 
 design:
   columns: '2'

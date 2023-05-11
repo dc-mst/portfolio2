@@ -5,7 +5,7 @@ title: "Set a hugo blog on Kubernetes"
 url: "/blog-hugo-docker-k8s-quay"
 subtitle: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
 summary: "Here are some steps to containerize a blog using hugo + docker + kubernetes + quay"
-authors: [ luiscachog ]
+authors: [ d-cmst ]
 tags: [ Kubernetes ,DevOps, SysAdmin, Hugo, Docker, Containers, Git, Quay, Cloud Native]
 categories: [ SysAdmin , DevOps, Open-Source, Cloud Native, Containers]
 keywords: [ Kubernetes, Quay, Docker, Containers, Cloud Native, Open Source, DevOps, SRE, Hugo ]
@@ -61,7 +61,7 @@ The principal changes that I made are:
 
 ## Containerized
 
-I use [Hugo](https://gohugo.io/) to deploy my blog, I used to do it as mentioned on [this](https://luiscachog.io/deployment-hugo-site-git-hooks/) previous post (In Spanish).
+I use [Hugo](https://gohugo.io/) to deploy my blog, I used to do it as mentioned on [this](https://d-cmst.io/deployment-hugo-site-git-hooks/) previous post (In Spanish).
 
 Now, as a part of containerize the blog it make sense to me to create two stages as described [here](https://www.civo.com/learn/using-civo-k3s-service-to-host-your-blog-in-hugo-using-github-actions):
 
@@ -91,11 +91,11 @@ RUN hugo --source=/source/ --destination=/public/
 FROM nginx:stable-alpine
 RUN apk --update add curl bash
 RUN rm /etc/nginx/conf.d/default.conf
-COPY modules/nginx.luiscachog.io.conf /etc/nginx/conf.d/luiscachog.io.conf
+COPY modules/nginx.d-cmst.io.conf /etc/nginx/conf.d/d-cmst.io.conf
 COPY --from=STAGEONE /public/ /usr/share/nginx/html/
 EXPOSE 80 443
 
-MAINTAINER Luis Cacho <luiscachog@gmail.com>
+MAINTAINER Luis Cacho <d-cmst@gmail.com>
 ```
 
 #### First Stage
