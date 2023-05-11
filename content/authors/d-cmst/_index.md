@@ -14,31 +14,28 @@ first_name: dcmst
 superuser: true
 
 # Role/position/tagline
-role: Python developer
+role: Yet Another Python developer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Red Hat
-    url: https://redhat.com
-  - name: Contributor at Kubernetes
-    url: https://www.kubernetes.io
-  - name: Hashicorp Meetup Organizer
-    url: https://www.meetup.com/San-Antonio-HashiCorp-User-Group
-  - name: GitKraken Ambassador
-    url: https://www.gitkraken.com/invite/kkvpJVyk
+  - name: Linux Foundation
+    url: https://www.linuxfoundation.org/
+  - name: KDE
+    url: https://www.kde.org
+  - name: Python Sofware Foundation
+    url: https://www.python.org/psf-landing/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Senior Container Infrastructure Consultant at Red Hat | DevOps Practitioner | Kubernetes Enthusiast | Ansible Ninja | Data Science Noob
+bio: Python developer | Linux Enthusiast | Wine Geek
 
 # Interests to show in About widget
 interests:
   - Automation
-  - Chaos Engineering
   - Cloud Native
   - Data Science
   - Open-Source
   - Site Reliabilty Engineering
-  - GitOps
+  - Chaos Theory
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
