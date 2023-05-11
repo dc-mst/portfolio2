@@ -15,7 +15,7 @@ item:
     url: https://pythoninstitute.org/pcap
     date_start: 2020-10-03
     date_end: 
-    organization: redhat
+    organization: python
     organization_url: https://www.redhat.com
     certificate_url: ''
 
@@ -24,7 +24,7 @@ item:
     url: https://www.redhat.com/en/services/certification/rhcsa
     date_start: 2014-07-01
     date_end: 2025-01-17
-    organization: pcap
+    organization: redhat
     organization_url: https://www.redhat.com
     certificate_url: ''
 
