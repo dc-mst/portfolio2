@@ -24,7 +24,7 @@ item:
     url: https://www.redhat.com/en/services/certification/rhcsa
     date_start: 2014-07-01
     date_end: 2025-01-17
-    organization: redhat
+    organization: pcap
     organization_url: https://www.redhat.com
     certificate_url: ''
 
