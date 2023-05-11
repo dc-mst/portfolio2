@@ -18,20 +18,20 @@ main:
     pre: <i class='fas fa-code-branch'>&nbsp;</i>
     weight: 40
     identifier: projects
-  - name: ''
-    url: 'tags/'
-    pre: <i class='fas fa-tags'>&nbsp;</i>
-    weight: 70
-    identifier: tags
-  - name: ''
-    url: 'categories/'
-    pre: <i class='fas fa-th-list'>&nbsp;</i>
-    weight: 80
-    identifier: categories
   - name: 'CV'
     url: uploads/resume.pdf
-    pre: <i class='fas fa-file-user'>&nbsp;</i>
+    pre: <i class='fas fa-user'>&nbsp;</i>
     weight: 70
+  # - name: ''
+  #   url: 'tags/'
+  #   pre: <i class='fas fa-tags'>&nbsp;</i>
+  #   weight: 70
+  #   identifier: tags
+  # - name: ''
+  #   url: 'categories/'
+  #   pre: <i class='fas fa-th-list'>&nbsp;</i>
+  #   weight: 80
+  #   identifier: categories
   # - name: ''
   #   url: 'https://follow.it'
   #   pre: <i class='fas fa-rss'>&nbsp;</i>
