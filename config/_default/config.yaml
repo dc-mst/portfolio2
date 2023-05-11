@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: DCMST # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://portfolio.devcrumbs.com/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -25,12 +25,13 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: github.com/jakejarvis/hugo-mod-twemoji
 
 ############################
 ## ADVANCED
 ############################
 
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 paginate: 10
 enableEmoji: true
@@ -38,35 +39,45 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
+  authors: '/author/:slug/'
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
+  post: '/blog/:slug'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
+  taxonomy: [HTML, RSS]
+  taxonomyTerm: [HTML,RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 90
   anchor: smart
 timeout: 600000
 taxonomies:
   tag: tags
   category: categories
   publication_type: publication_types
-  author: authors
+  author: author
 markup:
   _merge: deep
 related:
   threshold: 80
   includeNewer: true
   toLower: true
+  related_items: 3
   indices:
     - name: tags
       weight: 100
     - name: categories
-      weight: 70
+      weight: 80
+    - name: author
+      weight: 50
+    - name: date
+      weight: 10
+      pattern: '2006'
 security:
   _merge: deep
 sitemap:

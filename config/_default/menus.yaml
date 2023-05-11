@@ -4,24 +4,45 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '#about'
-    weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: ' Blog'
+    url: 'blog/'
+    pre: <i class='fas fa-terminal'>&nbsp;</i>
     weight: 20
-  - name: Projects
-    url: '#projects'
+    identifier: blog
+  - name: ' About'
+    url: 'about/'
+    pre: <i class='far fa-address-card'>&nbsp;</i>
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Projects
+    url: 'projects/'
+    pre: <i class='fas fa-code-branch'>&nbsp;</i>
     weight: 40
-  - name: Publications
-    url: '#featured'
+    identifier: projects
+  - name: 'Today I Learned'
+    url: 'today-i-learned/'
+    pre: <i class='fas fa-vihara'>&nbsp;</i>
     weight: 50
-  - name: Contact
-    url: '#contact'
+    identifier: garden
+  - name: Fantasy
+    url: 'fantasy/'
+    pre: <i class='fas fa-football-ball'>&nbsp;</i>
     weight: 60
+    identifier: fantasy
+  - name: ''
+    url: 'tags/'
+    pre: <i class='fas fa-tags'>&nbsp;</i>
+    weight: 70
+    identifier: tags
+  - name: ''
+    url: 'categories/'
+    pre: <i class='fas fa-th-list'>&nbsp;</i>
+    weight: 80
+    identifier: categories
+  - name: ''
+    url: 'https://follow.it/luiscachog-io'
+    pre: <i class='fas fa-rss'>&nbsp;</i>
+    weight: 90
+    identifier: rss
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

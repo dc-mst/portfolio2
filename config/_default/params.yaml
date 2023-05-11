@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
+  theme_day: dcmst
+  theme_night: dcmst
+  font: dcmst
   font_size: L
 
 # SEO
@@ -18,10 +18,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: ''
+    twitter: 'dcmst'
   analytics:
-    google_analytics: ''
+    google_analytics: UA-114918521-1
     baidu_tongji: ''
   verification:
     google: ''
@@ -32,9 +32,9 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: c
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
@@ -43,12 +43,19 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: >-
+      Made with ❤️ </br>
+      Hosted on [GitHub](https://github.com/d-cmst/portfolio2) - Served by [Netlify](https://www.netlify.com) </br>
+      &copy; 2014 - {year} - Luis Cacho
     license:
       enable: true
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
       allow_commercial: false
+      notice: >-
+        Except as otherwise noted, this work is licensed under {license}, and code
+        samples are licensed under the [MIT License](https://github.com/dcmst/dcmst.io/blob/master/LICENSE.md).
+
 
 # Localization
 
@@ -80,7 +87,7 @@ features:
       shortname: ''
       show_count: true
     commento:
-      url: ''
+      url: 'https://comments.dcmst.io'
     giscus:
       repo: ''
       repo_id: ''
