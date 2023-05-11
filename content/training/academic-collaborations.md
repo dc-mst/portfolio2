@@ -24,4 +24,4 @@ gallery_item:
 #   caption: Universidad Autónoma del Estado de México - Seguridad en OpenShift
 ---
 
-{{< gallery album="academic-collaborations" order="desc">}}
+<!-- {{< gallery album="academic-collaborations" order="desc">}} -->

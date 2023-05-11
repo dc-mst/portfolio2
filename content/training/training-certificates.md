@@ -15,4 +15,4 @@ design:
       - '0'
 ---
 
-{{< gallery album="certificates" order="desc">}}
+<!-- {{< gallery album="certificates" order="desc">}} -->

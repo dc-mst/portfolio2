@@ -74,4 +74,4 @@ gallery_item:
 #   caption: Red Hat - Red Hat Portfolio Practitioner - 2023/04/11
 ---
 
-{{< gallery album="training-badges" order="desc" >}}
+<!-- {{< gallery album="training-badges" order="desc" >}} -->

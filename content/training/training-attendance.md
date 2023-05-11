@@ -103,4 +103,4 @@ gallery_item:
 #   image: 20230404_acg_azure_fundamentals.png
 #   caption: A Cloud Guru - Azure Fundamentals
 ---
-{{< gallery album="course-attendance" order="desc" >}}
+<!-- {{< gallery album="course-attendance" order="desc" >}} -->
