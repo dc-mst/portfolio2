@@ -19,9 +19,9 @@ design:
 
 gallery_item:
 
-- album: academic-collaborations
-  image: 20220501-uaem.png
-  caption: Universidad Autónoma del Estado de México - Seguridad en OpenShift
+# - album: academic-collaborations
+#   image: 20220501-uaem.png
+#   caption: Universidad Autónoma del Estado de México - Seguridad en OpenShift
 ---
 
 {{< gallery album="academic-collaborations" order="desc">}}
