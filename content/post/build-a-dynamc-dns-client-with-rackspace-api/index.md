@@ -53,7 +53,7 @@ The instructions assume that you:
 
     ```shell
     #!/bin/bash
-    RSUSER=lcacho
+    RSUSER=dcmst
     RSAPIKEY=1234567890
     RSPATH=~/bin/rsdns/
     ```
@@ -61,7 +61,7 @@ The instructions assume that you:
 1. You need your domain created on Rackspace(It's under "Networking" -> "Cloud DNS" -> "Create Domain") if you don't have your domain created you are able to created using rsdns:
 
     ```shell
-    ./rsdns-domain.sh -d www.d-cmst.io -e lcacho@luisachog.io
+    ./rsdns-domain.sh -d www.d-cmst.io -e dcmst@devcrumbs.com
     ```
 
 1. Once you have a domain setup you need to create an A record.
@@ -89,7 +89,7 @@ The instructions assume that you:
 
     ```shell
     vim /etc/cron.d/rsdns-dc
-    * */2  * * *     lcacho /home/lcacho/bin/rsdns/rsdns-dc.sh -n dynamic-host.d-cmst.io &>/dev/null
+    * */2  * * *     dcmst /home/dcmst/bin/rsdns/rsdns-dc.sh -n dynamic-host.d-cmst.io &>/dev/null
     ```
 
 Now we are done! Private Dynamic DNS on your own zone using the Rackspace API.

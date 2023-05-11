@@ -95,7 +95,7 @@ COPY modules/nginx.d-cmst.io.conf /etc/nginx/conf.d/d-cmst.io.conf
 COPY --from=STAGEONE /public/ /usr/share/nginx/html/
 EXPOSE 80 443
 
-MAINTAINER Luis Cacho <d-cmst@gmail.com>
+MAINTAINER dcmst <dcmst@gmx.com>
 ```
 
 #### First Stage

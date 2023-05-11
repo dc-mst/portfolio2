@@ -46,7 +46,7 @@ footer:
     notice: >-
       Made with ❤️ </br>
       Hosted on [GitHub](https://github.com/d-cmst/portfolio2) - Served by [Netlify](https://www.netlify.com) </br>
-      &copy; 2014 - {year} - Luis Cacho
+      &copy; 2014 - {year} - dcmst
     license:
       enable: true
       allow_derivatives: true
