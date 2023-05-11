@@ -5,7 +5,7 @@ url: "/backing-up-ruckus-config"
 subtitle: "Commands to create a backup for my Ruckus ICX 7150 Switch"
 summary: "I show how to create a backup before upgrade the Switch Firmware"
 authors: [ d-cmst ]
-tags: [ Python ]
+tags: [ Python, today-i-learned ]
 categories: [ Python ]
 keywords: [ Python ]
 date: 2020-11-21
