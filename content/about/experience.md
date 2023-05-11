@@ -11,39 +11,39 @@ design:
 date_format: Jan 2006
 
 experience:
-  - title: Senior Container Infrastructure Consultant
-    company: Red Hat
-    company_url: https://www.redhat.com
-    company_logo: redhat
-    location: San Antonio, TX (Remote)
-    date_start: 2021-01-18
-    date_end: ""
+  - title: Developer
+    company: UserTesting
+    company_url: https://www.usertesting.com
+    company_logo: ""
+    location: Frankfurt | Remote
+    date_start: 2018-06-01
+    date_end: 2022-12-01
     description: ""
 
-  - title: Security Systems Administrator
-    company: Rackspace Technology
-    company_url: https://www.rackspace.com
-    company_logo: rackspace
-    location: San Antonio, TX
+  - title: Developer
+    company: Appen Ltd
+    company_url: https://www.appen.com
+    company_logo: ""
+    location: Remote
     date_start: 2020-01-11
     date_end: 2021-01-15
     description: ""
 
-  - title: Linux Systems Administrator
-    company: Rackspace Technology
-    company_url: https://www.rackspace.com
-    company_logo: rackspace
-    location: San Antonio, TX
-    date_start: 2014-01-03
-    date_end: 2020-01-10
+  - title: Project Manager
+    company: UniD
+    company_url: https://www.unidformazione.com
+    company_logo: ""
+    location: Borgo Maggiore, RSM
+    date_start: 2015-05-02
+    date_end: 2018-02-28
     description: ""
 
-  - title: Unix Specialist
-    company: Mexican Stock Exchange (Bolsa Mexicana de Valores)
-    company_url: https://www.bmv.com.mx
-    company_logo: bmv
-    location: Mexico City
-    date_start: 2009-09-01
-    date_end: 2013-12-30
+  - title: Teacher
+    company: MIUR
+    company_url: https://www.miur.gov.it/english-corner
+    company_logo: ""
+    location: Italy
+    date_start: 2011-01-01
+    date_end: 2014-12-01
     description: ""
 ---

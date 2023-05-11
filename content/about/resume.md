@@ -6,7 +6,7 @@ title: Interested? </br> Hire me!
 hero_media: about/resume/cv.png
 cta:
   label: '**Download my Resume**'
-  url: /media/files/resume.pdf
+  url: uploads/resume.pdf
   icon_pack: fas
   icon: file-download
 cta_alt:
@@ -16,7 +16,7 @@ cta_alt:
   icon: file-download
 cta_note:
   label: >-
-    Resume last update 2022/11/20
+    Resume last update 2023/04/30
 design:
   background:
     gradient_end: '#1976d2'
