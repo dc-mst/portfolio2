@@ -19,7 +19,7 @@ main:
     weight: 40
     identifier: projects
   - name: 'CV'
-    url: uploads/resume.pdf
+    url: uploads/dcmst_resume_en.pdf
     pre: <i class='fas fa-user'>&nbsp;</i>
     weight: 70
   # - name: ''

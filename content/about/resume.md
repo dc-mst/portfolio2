@@ -6,7 +6,7 @@ title: Interested? </br> Hire me!
 hero_media: about/resume/cv.png
 cta:
   label: '**Download my Resume**'
-  url: uploads/resume.pdf
+  url: uploads/dcmst_resume_en.pdf
   icon_pack: fas
   icon: file-download
 cta_alt:
