@@ -9,7 +9,7 @@ categories: [ Python, Database ]
 date: 2019-10-25
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/tikv/tikv"
+external_link: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
