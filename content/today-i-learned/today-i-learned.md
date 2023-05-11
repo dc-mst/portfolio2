@@ -14,7 +14,7 @@ subtitle: ''
 
 content:
   # Page type to display. E.g. project.
-  page_type: book
+  page_type: learned
 
   filters:
     # Folders to display content from
