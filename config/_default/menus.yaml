@@ -18,16 +18,6 @@ main:
     pre: <i class='fas fa-code-branch'>&nbsp;</i>
     weight: 40
     identifier: projects
-  # - name: 'Today I Learned'
-  #   url: 'today-i-learned/'
-  #   pre: <i class='fas fa-vihara'>&nbsp;</i>
-  #   weight: 50
-  #   identifier: garden
-  # - name: Fantasy
-  #   url: 'fantasy/'
-  #   pre: <i class='fas fa-football-ball'>&nbsp;</i>
-  #   weight: 60
-  #   identifier: fantasy
   - name: ''
     url: 'tags/'
     pre: <i class='fas fa-tags'>&nbsp;</i>
@@ -43,9 +33,20 @@ main:
     pre: <i class='fas fa-rss'>&nbsp;</i>
     weight: 90
     identifier: rss
+  - name: CV
+    url: uploads/resume.pdf
+    weight: 70
+  # - name: 'Today I Learned'
+  #   url: 'today-i-learned/'
+  #   pre: <i class='fas fa-vihara'>&nbsp;</i>
+  #   weight: 50
+  #   identifier: garden
+  # - name: Fantasy
+  #   url: 'fantasy/'
+  #   pre: <i class='fas fa-football-ball'>&nbsp;</i>
+  #   weight: 60
+  #   identifier: fantasy
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
- - name: CV
-    url: uploads/resume.pdf
-    weight: 70
+
