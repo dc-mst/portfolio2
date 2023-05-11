@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Molecule Cookiecutter"
-summary: "Cookiecutter for a molucle project"
+title: "Wiki.js"
+summary: "A modern and powerful wiki app built on Node.js"
 authors: []
-tags: [ Molecule, Ansible, Cookiecutter, Python, Open-Source]
-categories: [ Ansible, Project ]
+tags: [ Vue, Wiki, Open-Source]
+categories: [ Vue, Wiki ]
 date: 2019-10-24
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://github.com/requarks/wiki"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,15 +27,7 @@ url_video: ""
 
 links:
 - name: Code
-  url: https://github.com/d-cmst/cookiecutter-molecule
-  icon_pack: fab
-  icon: github
-- name: Molecule
-  url: https://github.com/ansible-community/molecule
-  icon_pack: fab
-  icon: github
-- name: Cookiecutter
-  url: https://github.com/cookiecutter/cookiecutter
+  url: https://github.com/requarks/wiki
   icon_pack: fab
   icon: github
 
@@ -46,5 +38,3 @@ links:
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
-A Cookiecutter template for your new Molecule project.

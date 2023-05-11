@@ -28,10 +28,10 @@ url_slides: ""
 url_video: ""
 
 links:
-- name: Ansible Galaxy
+- name: Code
   url: https://github.com/tikv/tikv
-  icon_pack: fas
-  icon: cog
+  icon_pack: fab
+  icon: github
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
