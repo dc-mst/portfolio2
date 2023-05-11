@@ -38,5 +38,3 @@ InvoicePlane is a free and open source invoicing application. The project is the
 FusionInvoice was an open source software before but was transformed into a commercial product with the release of version 2.x.
 
 Kovah, the InvoicePlane project leader, took over the codebase and restarted the project with a new name: InvoicePlane.
-
-**Thanks!**

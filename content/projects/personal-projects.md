@@ -13,18 +13,14 @@ content:
   filter_button:
     - name: All Projects
       tag: '*'
-    - name: Ansible
-      tag: Ansible
-    - name: Community
-      tag: Community
-    - name: Kubernetes
-      tag: Kubernetes
     - name: Python
       tag: Python
-    - name: Website
-      tag: Website
-    - name: Hobbies
-      tag: Hobbies
+    - name: Linux
+      tag: Linux
+    - name: PHP
+      tag: PHP
+    - name: Database
+      tag: Database
 design:
   columns: '2'
   view: 2
