@@ -8,7 +8,7 @@ categories: [ Linux ]
 date: 2019-11-27
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/GSConnect/gnome-shell-extension-gsconnect"
+external_link: ""
 
 # Featured image
 image:
@@ -24,17 +24,9 @@ url_video: ""
 
 links:
 - name: Code
-  url: https://github.com/doxmx
+  url: https://github.com/GSConnect/gnome-shell-extension-gsconnect
   icon_pack: fab
   icon: github
-- name: Talk Proposal
-  url: https://github.com/doxmx/meetups-topics/issues
-  icon_pack: fab
-  icon: github-alt
-- name: Schedule a talk
-  url: https://calendar.google.com/calendar/u/0/embed?src=c_1dhq8qdklmd5j3er7fccu7g3d4@group.calendar.google.com
-  icon_pack: fas
-  icon: calendar-day
 
 # Slides (optional).
 slides: ""
