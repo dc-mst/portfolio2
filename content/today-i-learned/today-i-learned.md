@@ -20,8 +20,6 @@ content:
     # Folders to display content from
     folders:
       - learned
-    tags:
-      - today-i-learned
 
   # Field to sort by, such as Date or Title
   sort_by: 'Date'
@@ -48,6 +46,8 @@ content:
       tag: Vue
     - name: Database
       tag: Database
+    - name: CV
+      tag: CV
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
