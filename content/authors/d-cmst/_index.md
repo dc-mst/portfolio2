@@ -7,8 +7,8 @@ first_name: dcmst
 #last_name:
 
 # Status emoji
-status:
-  icon: 👋
+# status:
+#   icon: 👋
 
 # Is this the primary user of the site?
 superuser: true
@@ -103,25 +103,24 @@ highlight_name: true
 # Actively contributing to [Open-Source projects]({{< relref "/projects#open-source" >}}) as well as learn new stuff every day and I would try to share in this blog.
 ---
 
-# :mexico: :us: :football: :soccer: :baby: :dog: :video_game: :airplane: :computer: {{< icon name="jedi-order" pack="fab" >}}
+# :computer: :cat: :wine: :video_game: :movie: 
 
 ## $ whoami
 
-I'm a proud father of Emma, dedicated husband of [Ale](https://twitter.com/4l381), avid soccer fanatic, beer lover, and fond of all things GNU/Linux related.
+I'm a geeky guy, mathematician by education and self-taught developer. Wine and cats lover, fond of all things GNU/Linux related.
 
-Currently working as a **Senior Container Infrastructure Consultant** at **[Red Hat](https://redhat.com/)** helping customer with their Cloud Native projects, focused on OpenShift migration and modernization for Enterprise clients.
-Prior to Red Hat I worked on **[Rackspace](https://www.rackspace.com)** and **[Mexican Stock Exchange (BMV)](https://www.bmv.com.mx/)**.
+I'm currently rebasing myself in Bologna (Italy) and looking for a job here, after some years abroad.
 
-As today I consider myself a Technologist. I have become knowledgeable in many areas of systems, cloud computing, and various other fields like:
+I've been involved with software development for more than 15 years, becoming knowledgeable in many areas of systems, cloud computing, and various other fields like:
 
+- Python programming
 - Linux Servers
 - Cloud Computing
 - Operating Systems
 - IaC (Infrastructure as Code)
 - Networking
 - Cloud Native technologies
-- GitOps
 
 I enjoy attend meetups and events to learn about new technologies, talk with interesting people and exchange stickers.
 
-I'm active on LinkedIn and Github, and occasionally on Twitter.
+I'm active on Github and do not enjoy modern social platform like Instagram, Twitter, etc. 
