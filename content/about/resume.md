@@ -28,6 +28,6 @@ design:
 
 If you find that my expertise could bring value to your company, you can send me an email to discuss my availability and job interview.
 
-Currently, I live in San Antonio, Texas , and I am capable of remote work.
+Currently, I live in Bologna, Italy, and I am capable of remote work.
 
 I'm also glad to answer any other questions related to employment!

@@ -103,7 +103,7 @@ highlight_name: true
 # Actively contributing to [Open-Source projects]({{< relref "/projects#open-source" >}}) as well as learn new stuff every day and I would try to share in this blog.
 ---
 
-# :computer: :cat: :wine-glass: :video_game: :cinema: :person-running: 
+# :computer: :cat: :wine_glass: :video_game: :cinema: :person_running: 
 
 ## $ whoami
 
