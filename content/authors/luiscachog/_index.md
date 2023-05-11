@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Luis Cacho
+title: dcmst
 
 # Full name (for SEO)
-first_name: Luis
-last_name: Cacho
+first_name: dcmst
+#last_name:
 
 # Status emoji
 status:
@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Senior Container Infrastructure Consultant
+role: Python developer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -51,41 +51,41 @@ social:
     label: Follow me on Github
     display:
       header: true
-  - icon: gitlab
-    icon_pack: fab
-    link: https://gitlab.com/d-cmst
-    label: Follow me on GitLab
-    display:
-      header: false
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/d-cmst/
-    label: Follow me on Linkedin
-    display:
-      header: true
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/d-cmst
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: keybase
-    icon_pack: fab
-    link: https://keybase.io/d-cmst
-  - icon: redhat
-    icon_pack: fab
-    link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
+  # - icon: gitlab
+  #   icon_pack: fab
+  #   link: https://gitlab.com/d-cmst
+  #   label: Follow me on GitLab
+  #   display:
+  #     header: false
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: https://www.linkedin.com/in/d-cmst/
+  #   label: Follow me on Linkedin
+  #   display:
+  #     header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/d-cmst
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
+  # - icon: keybase
+  #   icon_pack: fab
+  #   link: https://keybase.io/d-cmst
+  # - icon: redhat
+  #   icon_pack: fab
+  #   link: https://www.redhat.com/rhtapps/services/verify?certId=140-122-987
   ## Link to a PDF of your resume/CV from the About widget.
   ## To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: linux
-    icon_pack: fab
-    link: media/files/resume.pdf
+  # - icon: linux
+  #   icon_pack: fab
+  #   link: media/files/resume.pdf
   - icon: envelope
     icon_pack: fas
-    link: "mailto:d-cmst@gmail.com" # For a direct email link, use "mailto:test@example.org".
-  - icon: rss
-    icon_pack: fas
-    link: https://follow.it/d-cmst-io
+    link: "mailto:dcmst@gmx.com" # For a direct email link, use "mailto:test@example.org".
+  # - icon: rss
+  #   icon_pack: fas
+  #   link: https://follow.it/d-cmst-io
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
@@ -95,7 +95,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: d-cmst@gmail.com
+email: dcmst@gmx.com
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
