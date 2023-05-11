@@ -28,14 +28,15 @@ main:
     pre: <i class='fas fa-th-list'>&nbsp;</i>
     weight: 80
     identifier: categories
-  - name: ''
-    url: 'https://follow.it'
-    pre: <i class='fas fa-rss'>&nbsp;</i>
-    weight: 90
-    identifier: rss
-  - name: CV
+  - name: 'CV'
     url: uploads/resume.pdf
+    pre: <i class='fas fa-file-user'>&nbsp;</i>
     weight: 70
+  # - name: ''
+  #   url: 'https://follow.it'
+  #   pre: <i class='fas fa-rss'>&nbsp;</i>
+  #   weight: 90
+  #   identifier: rss
   # - name: 'Today I Learned'
   #   url: 'today-i-learned/'
   #   pre: <i class='fas fa-vihara'>&nbsp;</i>
