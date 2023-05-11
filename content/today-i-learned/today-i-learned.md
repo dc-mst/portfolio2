@@ -19,9 +19,9 @@ content:
   filters:
     # Folders to display content from
     folders:
-      - garden
+      - learned
     tags:
-      - Digital-Garden
+      - today-i-learned
 
   # Field to sort by, such as Date or Title
   sort_by: 'Date'
@@ -38,20 +38,17 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Cloud Native
-      tag: Cloud-Native
-    - name: Development
-      tag: Development
-    - name: Infrastructure as Code
-      tag: IaC
-    - name: Network
-      tag: Network
-    - name: Storage
-      tag: Storage
-    - name: SysAdmin
-      tag: SysAdmin
-    - name: Miscellaneous
-      tag: Miscellaneous
+    - name: Python
+      tag: Python
+    - name: PHP
+      tag: PHP
+    - name: JavaScript
+      tag: JavaScript
+    - name: Vue
+      tag: Vue
+    - name: Database
+      tag: Database
+
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'

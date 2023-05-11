@@ -18,6 +18,10 @@ main:
     pre: <i class='fas fa-code-branch'>&nbsp;</i>
     weight: 40
     identifier: projects
+  - name: 'Today I Learned'
+    url: 'today-i-learned/'
+    pre: <i class='fas fa-vihara'>&nbsp;</i>
+    weight: 50
   - name: 'CV'
     url: uploads/dcmst_resume_en.pdf
     pre: <i class='fas fa-user'>&nbsp;</i>
@@ -37,10 +41,6 @@ main:
   #   pre: <i class='fas fa-rss'>&nbsp;</i>
   #   weight: 90
   #   identifier: rss
-  # - name: 'Today I Learned'
-  #   url: 'today-i-learned/'
-  #   pre: <i class='fas fa-vihara'>&nbsp;</i>
-  #   weight: 50
   #   identifier: garden
   # - name: Fantasy
   #   url: 'fantasy/'
