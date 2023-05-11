@@ -1,20 +1,20 @@
 ---
-widget: blank
-headless: true
-active: true
-weight: 20
-title: Badges
-subtitle: ''
-design:
-  columns: '2'
-  spacing:
-    padding:
-      - 40px
-      - '0'
-      - 40px
-      - '0'
+# widget: blank
+# headless: true
+# active: true
+# weight: 20
+# title: Badges
+# subtitle: ''
+# design:
+#   columns: '2'
+#   spacing:
+#     padding:
+#       - 40px
+#       - '0'
+#       - 40px
+#       - '0'
 
-gallery_item:
+# gallery_item:
 # - album: training-badges
 #   image: 20140701_rhcsa.png
 #   caption: Red Hat - Red Hat Certified System Administrator (RHCSA) - 2014/07/01
