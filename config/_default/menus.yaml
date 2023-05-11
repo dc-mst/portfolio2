@@ -13,7 +13,7 @@ main:
     url: 'about/'
     pre: <i class='far fa-address-card'>&nbsp;</i>
     weight: 30
-  - name: Projects
+  - name: ' Projects'
     url: 'projects/'
     pre: <i class='fas fa-code-branch'>&nbsp;</i>
     weight: 40
