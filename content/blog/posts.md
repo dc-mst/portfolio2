@@ -4,7 +4,11 @@ widget: pages
 headless: true
 active: true
 weight: 10
+subtitle: >-
+  Open-Source projects, hobbies, and other things
+  I've enjoy working with!
 title: Latest Articles
+profile: true
 subtitle: ''
 content:
   page_type: post
@@ -22,5 +26,4 @@ design:
 advanced:
   css_style: ''
   css_class: ''
-author: "d-cmst"
 ---
