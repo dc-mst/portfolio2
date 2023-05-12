@@ -8,8 +8,8 @@ authors: [ d-cmst ]
 tags: [ Ethics, Web ]
 categories: [ Ethics, Web ]
 keywords: [ Anonimity, Web, Ethics ]
-date: 2023-05-12
-publishDate: 2023-05-12
+date: 2023-05-05
+publishDate: 2023-05-05
 lastmod: 2023-05-12
 featured: false
 draft: false
