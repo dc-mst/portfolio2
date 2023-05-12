@@ -46,8 +46,8 @@ content:
       tag: Vue
     - name: Database
       tag: Database
-    - name: CV
-      tag: CV
+    - name: BASH
+      tag: BASH
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
