@@ -5,7 +5,7 @@ url: "/harmonized-interbeing"
 subtitle: ""
 summary: "(Whirring Marvels in) Consensus Reality Review "
 authors: [ d-cmst ]
-tags: [ Ethics, Web ]
+tags: [ Music, Reviews, Formal Languages ]
 categories: [ Music, Reviews, Formal Languages ]
 keywords: [ Music, Formal Languages, Reviews ]
 date: 2023-05-12
