@@ -24,6 +24,22 @@ advanced:
 <!-- Include the library. -->
 <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  const selectLastHalfYear = contributions => {
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth();
+  const shownMonths = 12;
+
+  return contributions.filter(activity => {
+    const date = new Date(activity.date);
+    const monthOfDay = date.getMonth();
+
+    return (
+      date.getFullYear() === currentYear &&
+      monthOfDay > currentMonth - shownMonths &&
+      monthOfDay <= currentMonth
+    );
+  });
+};
 </script>
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
