@@ -17,7 +17,9 @@ content:
     publication_type: ''
     exclude_featured: false
 design:
-  view: 5
+  columns: '2'
+  view: 2
+  flip_alt_rows: true
   background: {}
 advanced:
   css_style: ''
