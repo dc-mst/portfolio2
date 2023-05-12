@@ -17,11 +17,10 @@ content:
     publication_type: ''
     exclude_featured: false
 design:
-  columns: '2'
-  view: 2
-  flip_alt_rows: true
+  view: 5
   background: {}
 advanced:
   css_style: ''
   css_class: ''
+author: "d-cmst"
 ---
