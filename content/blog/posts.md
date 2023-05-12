@@ -8,7 +8,6 @@ subtitle: >-
   Open-Source projects, hobbies, and other things
   I've enjoy working with!
 title: Latest Articles
-profile: true
 subtitle: ''
 content:
   page_type: post
