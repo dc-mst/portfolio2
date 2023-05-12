@@ -1,6 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
-title: "Harmonized Interbeing: The Expressive Power of Instrumental Music as human beings and machines intertwines"
+title: "Harmonized Interbeing: the expressive power of instrumental music as human beings and machines intertwines"
 url: "/harmonized-interbeing"
 subtitle: ""
 summary: "(Whirring Marvels in) Consensus Reality Review "
