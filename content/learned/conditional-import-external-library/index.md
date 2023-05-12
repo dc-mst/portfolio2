@@ -1,8 +1,6 @@
 ---
 title: Python conditional import in external library
-summary: Write about your project here...
-tags:
-  - CV
+summary: how to import in an external library
 date: 2022-01-01
 tags: [ Python ]
 ---

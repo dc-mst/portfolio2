@@ -48,10 +48,10 @@ social:
     label: Follow me on Github
     display:
       header: true
-  # - icon: gitlab
-  #   icon_pack: fab
-  #   link: https://gitlab.com/d-cmst
-  #   label: Follow me on GitLab
+  - icon: stack-exchange
+    icon_pack: fab
+    link: https://tex.stackexchange.com/users/24483/d-cmst
+    label: See my contributions at TeX.StackExchange
   #   display:
   #     header: false
   # - icon: linkedin
