@@ -40,23 +40,5 @@ advanced:
 
 <script>
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "d-cmst", { 
-      responsive: true; 
-      const selectLastHalfYear = contributions => {
-        const currentYear = new Date().getFullYear();
-        const currentMonth = new Date().getMonth();
-        const shownMonths = 12;
-
-        return contributions.filter(activity => {
-          const date = new Date(activity.date);
-          const monthOfDay = date.getMonth();
-
-          return (
-            date.getFullYear() === currentYear &&
-            monthOfDay > currentMonth - shownMonths &&
-            monthOfDay <= currentMonth
-          );
-        });
-      };   
-    });
+    GitHubCalendar(".calendar", "d-cmst", { responsive: true });
 </script>
