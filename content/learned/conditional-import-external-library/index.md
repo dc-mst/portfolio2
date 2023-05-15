@@ -2,6 +2,7 @@
 title: Python conditional import in external library
 summary: how to import in an external library
 date: 2022-05-11
+lastmod: 2023-05-11
 tags: [ Python ]
 ---
 

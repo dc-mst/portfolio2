@@ -2,6 +2,7 @@
 title: IRI vs. URI and why are they not very common
 summary: IRI is an extension of URI that allows for non-ASCII characters
 date: 2023-05-15
+lastmod: 2023-05-15
 tags: [ Internet, Fun Facts ]
 ---
 
