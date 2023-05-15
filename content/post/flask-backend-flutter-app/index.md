@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Flask backend for a Flutter app"
+title: "Flask backend for a Flutter app in 3 steps"
 url: "/flask-backend-flutter-app"
 subtitle: "How to use a Flask backend in a Flutter app"
 summary: "How to use a Flask backend in a Flutter app"
@@ -36,11 +36,11 @@ projects: []
 
 This is a draft for a Tutorial on how to use Flask as a backend in a Flutter app.
 
-Step 1: Set up your Flutter project
+## Step 1: Set up your Flutter project
 1. Create a new Flutter project using the Flutter CLI or your preferred IDE.
 2. Open the project in your chosen IDE.
 
-Step 2: Create the Flask backend
+## Step 2: Create the Flask backend
 1. Install Flask by running the following command in your terminal:
    ```bash
    pip install flask
@@ -68,7 +68,7 @@ Step 2: Create the Flask backend
    ```
    This will start the Flask server on `http://localhost:5000`.
 
-Step 3: Connect the Flutter app to the Flask backend
+## Step 3: Connect the Flutter app to the Flask backend
 1. In your Flutter project, open the `pubspec.yaml` file and add the `http` package to your dependencies:
    ```yaml
    dependencies:
