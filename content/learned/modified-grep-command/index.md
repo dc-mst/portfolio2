@@ -1,7 +1,7 @@
 ---
 title: Modified grep command
 summary: a grep command with auto-hiding capabilities
-date: 2023-05-11
+date: 2023-05-10
 tags: [ Linux, BASH ]
 ---
 

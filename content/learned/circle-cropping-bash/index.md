@@ -1,7 +1,7 @@
 ---
 title: Circular cropping from BASH
 summary: Circular crop without opening any app...
-date: 2023-05-01
+date: 2023-05-12
 tags: [ Linux, BASH ]
 ---
 
