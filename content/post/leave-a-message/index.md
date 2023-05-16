@@ -9,9 +9,9 @@ authors: [ d-cmst ]
 tags: [ Python, Code golf, Web, SQL ]
 categories: [ Python, Code golf ]
 keywords: [Python, Code golf, SQL ]
-date: 2022-05-16
-publishDate: 2022-05-16
-lastmod: 2022-05-16
+date: 2023-05-16
+publishDate: 2023-05-16
+lastmod: 2023-05-16
 featured: false
 draft: false
 
