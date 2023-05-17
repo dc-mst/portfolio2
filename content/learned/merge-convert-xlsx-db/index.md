@@ -1,8 +1,8 @@
 ---
 title: Convert and merge xlsx files into a db
 summary: a BASH script to create a db from separate xlsx files
-date: 2023-05-10
-lastmod: 2023-05-10
+date: 2023-05-17
+lastmod: 2023-05-17
 tags: [ Linux, BASH, SQL ]
 ---
 
