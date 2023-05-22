@@ -31,6 +31,7 @@ image:
 projects: []
 ---
 
+_This is a working draft for a speech about the delay problem, to be given at the forthcoming [KI 2023](https://ki2023.gi.de/) Conference_
 
 Rule-based stream reasoning is a powerful approach to analyze and reason over continuously flowing data streams. It enables the extraction of valuable insights and the detection of complex patterns in real-time. However, two significant challenges in this domain are the delay problem and the window size problem. This article explores these challenges and presents potential solutions to mitigate their impact, enhancing the efficiency and effectiveness of rule-based stream reasoning systems.
 
