@@ -50,7 +50,7 @@ As humans and machines continue to intertwine, instrumental music emerges as a f
 
 **References**
 
-[^1]: [(Whirring Marvels in) Consensus Reality](https://eluvium.bandcamp.com/album/whirring-marvels-in-consensus-reality)
+[^1]: [Whirring Marvels in Consensus Reality](https://eluvium.bandcamp.com/album/whirring-marvels-in-consensus-reality)
 [^2]: [Music, Mathematics and Language](https://link.springer.com/book/10.1007/978-981-19-5166-4)
 
  

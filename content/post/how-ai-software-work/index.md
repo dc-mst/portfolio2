@@ -51,7 +51,7 @@ Traditionally, NLP relied heavily on rule-based methods and linguistic grammars.
 
 ## Architecture of GPT (Generative Pre-trained Transformer)
 ### The Transformer Architecture
-The backbone of ChatGPT is the Transformer architecture, a breakthrough in the field of deep learning and NLP. Introduced in the paper "Attention Is All You Need" by Vaswani et al., the Transformer focuses on self-attention mechanisms to weigh input data differently, allowing for more dynamic and contextual understanding of data.
+The backbone of ChatGPT is the Transformer architecture, a breakthrough in the field of deep learning and NLP. Introduced in the paper "Attention Is All You Need" by Vaswani et al.[^1], the Transformer focuses on self-attention mechanisms to weigh input data differently, allowing for more dynamic and contextual understanding of data.
 
 Unlike traditional sequence models like RNNs and LSTMs, which process data sequentially, Transformers can process all data points in parallel. This not only speeds up training but also enables the model to establish long-range dependencies in the data, which is crucial for understanding context in language.
 
@@ -76,4 +76,7 @@ With great power comes great responsibility. The capability of models like ChatG
 
 ## Conclusion
 The journey of making machines understand and generate human language has been a testament to human ingenuity and perseverance. Software models like ChatGPT, underpinned by complex neural architectures and trained on vast amounts of data, are at the forefront of this journey. As we embrace these technological marvels, it's crucial to use them wisely, ensuring they benefit society while being aware of and mitigating potential risks.
+
+
+[^1]: Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. In Advances in neural information processing systems (pp. 5998-6008).
  
