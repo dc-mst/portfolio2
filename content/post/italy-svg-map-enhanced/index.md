@@ -32,6 +32,6 @@ image:
 projects: []
 ---
 
-I've just created a [GitHub repo](https://github.com/d-cmst/italy-svg-map-enhanced) with an annotated version of the Italian regional map from [wikimedia](https://commons.wikimedia.org/wiki/File:Map_of_Italy_blank.svg), to be used in the [AGReATWine](https://portfolio.devcrumbs.com/project/agreatwine/) project as a base layer for the appellations map. 
+I've just created a [GitHub repo](https://github.com/dc-mst/italy-svg-map-enhanced) with an annotated version of the Italian regional map from [wikimedia](https://commons.wikimedia.org/wiki/File:Map_of_Italy_blank.svg), to be used in the [AGReATWine](https://portfolio.devcrumbs.com/project/agreatwine/) project as a base layer for the appellations map. 
 
 The map has been enhanced with path names, groups and layers to make it more userfriendly and less daunting. Also, cities have beeen added - they still need to be better positioned.

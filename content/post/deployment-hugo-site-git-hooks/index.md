@@ -177,7 +177,7 @@ El siguiente paso es configurar nuestro ambiente de desarrollo con Hugo y Git.
 
     ```shell
     git init
-    git submodule add https://github.com/d-cmst/gohugo-theme-ananke.git themes/ananke
+    git submodule add https://github.com/dc-mst/gohugo-theme-ananke.git themes/ananke
     # Edit your config.toml configuration file
     # and add the new theme.
 
@@ -243,7 +243,7 @@ en [github.com](https://github.com) y configurarlo como un repositorio remoto
 ```shell
 d-cmst@dev-server:~$ git add *
 d-cmst@dev-server:~$ git commit -m "First commit"
-d-cmst@dev-server:~$ git remote add origin https://github.com/d-cmst/d-cmst.io
+d-cmst@dev-server:~$ git remote add origin https://github.com/dc-mst/d-cmst.io
 d-cmst@dev-server:~$ git push -u origin master
 ```
 
@@ -256,7 +256,7 @@ En nuestro servidor productivo haremos:
 ```shell
 admin@prod-server:~$ mkdir sites
 admin@prod-server:~$ cd sites
-admin@prod-server:~$ git clone --bare https://github.com/d-cmst/d-cmst.io  d-cmst.io.git
+admin@prod-server:~$ git clone --bare https://github.com/dc-mst/d-cmst.io  d-cmst.io.git
 ```
 
 #### Configuración del hook

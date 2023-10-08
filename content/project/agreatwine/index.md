@@ -24,7 +24,7 @@ url_video: ""
 
 links:
 - name: Code
-  url: https://github.com/d-cmst/agreatwine-web
+  url: https://github.com/dc-mst/agreatwine-web
   icon_pack: fab
   icon: github
 

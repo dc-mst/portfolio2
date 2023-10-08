@@ -53,7 +53,7 @@ slides:
 
 #### [@Rackspace](https://rackspace.com)
 
-[d-cmst.io](https://d-cmst.io) | [@d-cmst](https://twitter.com/d-cmst) | [github.com/d-cmst](https://github.com/d-cmst)
+[d-cmst.io](https://d-cmst.io) | [@d-cmst](https://twitter.com/d-cmst) | [github.com/dc-mst](https://github.com/dc-mst)
 
 ---
 {{< slide background-image="backgrounds/background1.jpg" >}}
@@ -354,7 +354,7 @@ A grandes rasgos las actividades que hace molecule son:
     - Check for idempotence
     - Lint the Ansible and Python code
     - Verify the role against some tests
-- Github Repo: [github.com/d-cmst/elastic_stack](https://github.com/d-cmst/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
+- Github Repo: [github.com/dc-mst/elastic_stack](https://github.com/dc-mst/elastic_stack) {{% fragment %}} *(Thanks to GaRaGeD for provide a playbook to test)* {{% /fragment %}}
 
 ---
 
@@ -396,6 +396,6 @@ A grandes rasgos las actividades que hace molecule son:
 
 *You can find me on:*
 
-[d-cmst [at] gmail.com](mailto:d-cmst@gmail.com) | [d-cmst.io](https://d-cmst.io) | [github.com/d-cmst](https://github.com/d-cmst) | [@d-cmst](https://twitter.com/d-cmst)
+[d-cmst [at] gmail.com](mailto:d-cmst@gmail.com) | [d-cmst.io](https://d-cmst.io) | [github.com/dc-mst](https://github.com/dc-mst) | [@d-cmst](https://twitter.com/d-cmst)
 
 {{% /section %}}

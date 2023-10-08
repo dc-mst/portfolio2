@@ -44,7 +44,7 @@ interests:
 social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/d-cmst
+    link: https://github.com/dc-mst
     label: Follow me on Github
     display:
       header: true
