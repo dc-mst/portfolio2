@@ -9,7 +9,7 @@ weight: 10 # Position of section on page
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
 author: 'd-cmst'
 ---
-👋 Hi, there! I'm Domenico and this is a little website to know a bit about me in a _not so serious_ fashion. 
+👋 Hi, there! I'm Domenico and this is a little website about myself I built but almost never update. Cool stuff! 
 {style="font-size: 1rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom:0"}
 
 (Check out my [resumé](uploads/dcmst_resume_en.pdf) for the more serious approach.)
